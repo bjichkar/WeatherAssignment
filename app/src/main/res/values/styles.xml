@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="title_main_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/d5dip</item>
+        <item name="android:textSize">@dimen/s22sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="button_main_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/d5dip</item>
+        <item name="android:textSize">@dimen/s17sp</item>
+    </style>
+
+    <style name="text_detail_section">
+        <item name="android:layout_width">@dimen/d0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/d5dip</item>
+        <item name="android:textSize">@dimen/s17sp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="ll_detail_section">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">2.0</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TextviewStyleForDisplay">
+        <item name="android:layout_width">@dimen/d150dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/s17sp</item>
+        <item name="android:padding">@dimen/d3dip</item>
+    </style>
+
+    <style name="layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/d3dip</item>
+    </style>
+
+
+</resources>

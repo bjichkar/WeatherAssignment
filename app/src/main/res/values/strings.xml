@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">WeatherAssignment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity Main -->
+    <string name="title">Weather Assignment</string>
+    <string name="btn_task1">Task 1- Get weather update of Cities.</string>
+    <string name="btn_task2">Task 2- Get weather of Current Location.</string>
+    <string name="title_activity_forcast_cities">ForcastCities</string>
+    <string name="title_activity_forcast_on_location">ForcastOnLocation</string>
+
+
+    <!-- ForcastCities -->
+    <string name="txt_informationText">Please Enter City in following field. For multiple cities use comma between them. For example- Pune,Mumbai.</string>
+    <string name="edt_enter_city">Enter City Name</string>
+    <string name="btn_get_forcast">Get Forecast</string>
+    <string name="title_activity_date">Date</string>
+    <string name="title_activity_forecast_detail">ForecastDetail</string>
+
+
+    <!--DATE-->
+    <string name="date_title">Select Date</string>
+
+    <!-- GENERAL MESSAGE -->
+    <string name="net_connection_failed">Connection request failed. Please ensure you are connected to strong network.</string>
+    <string name="title_activity_forcast_detail">ForcastDetail</string>
+
+    <!-- DETAIL FORECAST -->
+    <string name="forcast_title">Weather Forecast</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="speed">Speed</string>
+    <string name="deg">Deg</string>
+    <string name="clouds">Clouds</string>
+    <string name="temp">Temperature</string>
+    <string name="day">Day</string>
+    <string name="min">Minimum</string>
+    <string name="max">Maximum</string>
+    <string name="eve">Evening</string>
+    <string name="morn">Morning</string>
+    <string name="nightTemp">Night</string>
+    <string name="desc">Description</string>
+    <string name="main">Weather</string>
+    <string name="rain">Rain</string>
+
+
+    <!-- LOCATION  -->
+    <string name="getLocation">Get My Location</string>
+    <string name="lati">Current Latitude</string>
+    <string name="longi">Current Longitude</string>
+    <string name="city">Current City</string>
+    <string name="getForecast">Get Weather on My Location</string>
+
+</resources>

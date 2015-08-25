@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="brj.com.weatherassignment.taskFirst.ForcastCities"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/d5dip">
+
+    <TextView
+       style="@style/button_main_style"
+        android:textSize="@dimen/s14sp"
+        android:text="@string/txt_informationText"/>
+
+    <EditText
+        android:id="@+id/forcast_edt_city_name"
+        android:hint="@string/edt_enter_city"
+        style="@style/button_main_style"
+        android:layout_marginTop="@dimen/d5dip"
+        android:singleLine="true"
+        android:layout_marginBottom="@dimen/d5dip"
+        android:imeOptions="actionDone"/>
+
+    <Button
+        android:id="@+id/btn_weather_of_cities"
+        android:text="@string/btn_get_forcast"
+        android:textAllCaps="false"
+        style="@style/button_main_style"
+        android:layout_marginBottom="@dimen/d5dip"
+        android:onClick="getForecst"
+
+        />
+    <ListView
+        android:id="@+id/forcast_list_city"
+        style="@style/button_main_style">
+    </ListView>
+
+</LinearLayout>

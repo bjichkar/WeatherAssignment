@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginLeft="@dimen/d20dip"
+    android:layout_marginRight="@dimen/d20dip"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:text="@string/title"
+        style="@style/title_main_style"
+        />
+
+    <Button
+        android:id="@+id/btn_weather_of_cities"
+        android:text="@string/btn_task1"
+        android:textAllCaps="false"
+        style="@style/button_main_style"
+        />
+
+    <Button
+        android:id="@+id/btn_weather_of_current_location"
+        android:text="@string/btn_task2"
+        android:textAllCaps="false"
+        style="@style/button_main_style"
+        android:layout_marginTop="@dimen/d15dip"
+        />
+
+</LinearLayout>

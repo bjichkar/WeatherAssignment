@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="brj.com.weatherassignment.taskSecond.ForcastOnLocation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/d10dip">
+
+        <Button
+            android:id="@+id/btn_getLocation"
+            android:layout_width="@dimen/d230dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/getLocation"
+            android:textAllCaps="false"
+            android:layout_marginBottom="@dimen/d10dip"
+            android:onClick="getLoaction"
+            android:textSize="@dimen/s17sp"
+            />
+
+        <TextView
+            android:id="@+id/txt_cur_lat"
+            style="@style/TextviewStyleForDisplay"
+            android:text="@string/lati"
+            android:layout_below="@id/btn_getLocation"
+            />
+        <TextView
+            android:id="@+id/txt_cur_lat_value"
+            style="@style/TextviewStyleForDisplay"
+            android:layout_toRightOf="@id/txt_cur_lat"
+            android:layout_below="@id/btn_getLocation"
+            />
+        <TextView
+            android:id="@+id/txt_cur_long"
+            style="@style/TextviewStyleForDisplay"
+            android:text="@string/longi"
+            android:layout_below="@id/txt_cur_lat"
+            />
+        <TextView
+            android:id="@+id/txt_cur_long_value"
+            style="@style/TextviewStyleForDisplay"
+            android:layout_toRightOf="@id/txt_cur_long"
+            android:layout_below="@id/txt_cur_lat_value"
+            />
+        <TextView
+            android:id="@+id/txt_cur_city"
+            style="@style/TextviewStyleForDisplay"
+            android:text="@string/city"
+            android:layout_below="@id/txt_cur_long"
+            />
+        <TextView
+            android:id="@+id/txt_cur_city_value"
+            style="@style/TextviewStyleForDisplay"
+            android:layout_toRightOf="@id/txt_cur_city"
+            android:layout_below="@id/txt_cur_long_value"
+            />
+
+        <Button
+            android:id="@+id/btn_getForecast"
+            android:layout_width="@dimen/d230dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txt_cur_city_value"
+            android:text="@string/getForecast"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/d10dip"
+            android:textSize="@dimen/s17sp"
+            android:onClick="weatherWebservice"
+            />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

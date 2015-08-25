@@ -1,0 +1,70 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+
+    <dimen name="d0dip">0dip</dimen>
+    <dimen name="d1dip">1dip</dimen>
+    <dimen name="d2dip">3dip</dimen>
+    <dimen name="d3dip">5dip</dimen>
+    <dimen name="d4dip">6dip</dimen>
+    <dimen name="d5dip">8dip</dimen>
+    <dimen name="d7dip">11dip</dimen>
+    <dimen name="d10dip">15dip</dimen>
+    <dimen name="d12dip">18dip</dimen>
+    <dimen name="d13dip">20dip</dimen>
+    <dimen name="d15dip">23dip</dimen>
+    <dimen name="d18dip">27dip</dimen>
+    <dimen name="d20dip">30dip</dimen>
+    <dimen name="d25dip">38dip</dimen>
+    <dimen name="d30dip">45dip</dimen>
+    <dimen name="d35dip">48dip</dimen>
+    <dimen name="d40dip">60dip</dimen>
+    <dimen name="d48dip">72dip</dimen>
+    <dimen name="d50dip">75dip</dimen>
+    <dimen name="d60dip">90dip</dimen>
+    <dimen name="d70dip">105dip</dimen>
+    <dimen name="d75dip">108dip</dimen>
+    <dimen name="d80dip">120dip</dimen>
+    <dimen name="d90dip">135dip</dimen>
+    <dimen name="d100dip">150dip</dimen>
+    <dimen name="d110dip">165dip</dimen>
+    <dimen name="d115dip">172dip</dimen>
+    <dimen name="d120dip">180dip</dimen>
+    <dimen name="d125dip">190dip</dimen>
+    <dimen name="d150dip">225dip</dimen>
+    <dimen name="d180dip">270dip</dimen>
+    <dimen name="d230dip">345dip</dimen>
+    <dimen name="d250dip">380dip</dimen>
+    <dimen name="d270dip">410dip</dimen>
+    <dimen name="d280dip">420dip</dimen>
+    <dimen name="d300dip">450dip</dimen>
+    <dimen name="d320dip">480dip</dimen>
+    <dimen name="d350dip">525dip</dimen>
+    <dimen name="d370dip">550dip</dimen>
+    <dimen name="d400dip">600dip</dimen>
+    <dimen name="d450dip">670dip</dimen>
+
+    <!-- text size -->
+    <dimen name="s9sp">14sp</dimen>
+    <dimen name="s10sp">15sp</dimen>
+    <dimen name="s11sp">16sp</dimen>
+    <dimen name="s12sp">18sp</dimen>
+    <dimen name="s13sp">20sp</dimen>
+    <dimen name="s14sp">21sp</dimen>
+    <dimen name="s15sp">23sp</dimen>
+    <dimen name="s17sp">26sp</dimen>
+    <dimen name="s20sp">30sp</dimen>
+    <dimen name="s22sp">33sp</dimen>
+    <dimen name="s25sp">38sp</dimen>
+    <dimen name="s28sp">42sp</dimen>
+    <dimen name="s30sp">45sp</dimen>
+
+
+    <dimen name="navigation_drawer_width">360dip</dimen>
+
+</resources>
